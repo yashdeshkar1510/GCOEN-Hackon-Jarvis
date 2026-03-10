@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useApp } from '@/context/AppContext';
 
 const links = [
-  { href: '/', label: 'Dashboard', icon: '📊' },
+  { href: '/dashboard', label: 'Dashboard', icon: '📊' },
   { href: '/intake', label: 'Patient Intake', icon: '📋' },
   { href: '/analysis', label: 'AI Analysis', icon: '🤖' },
   { href: '/queue', label: 'Triage Queue', icon: '👥' },
